@@ -1,12 +1,13 @@
 .common {
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
 }
 .header{
     height: 500px;
     background-image: url('../assets/img/AubreyandKyle-22.jpg');
+    background-size: 500px;
     color:black;
-    line-height: 100px;
+    line-height: 500px;
 }
 .mainBody{
     background-color: rgb(255, 250, 241);
@@ -19,12 +20,6 @@
     bottom: 0px;
     right: 0px;
     left: 0px
-}
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
 }
 nav{
     background-color: rgb(191, 203, 217);
@@ -41,4 +36,7 @@ nav a{
 }
 nav a:hover{
     background-color: #ccc;
+}
+.titles{
+    text-align: center;
 }
